@@ -186,3 +186,23 @@ header{
     font-weight: 700;
     font-size: 16px;
 }
+
+/* Section 4 */
+
+.text-section-four{
+    text-align: center;
+}
+
+.text-section-four h2{
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.text-section-four p{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.img-four{
+    text-align: center;
+}
