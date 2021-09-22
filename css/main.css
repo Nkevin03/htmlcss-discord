@@ -206,3 +206,26 @@ header{
 .img-four{
     text-align: center;
 }
+
+.bg-img{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position : center;
+}
+
+.text-section-five{
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn-download-mac{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-download-mac a{
+    background-color: #7983f5;
+    color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+}
