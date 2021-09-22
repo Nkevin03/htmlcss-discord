@@ -12,6 +12,14 @@
     margin: 0 15%;
 }
 
+.lh26px{
+    line-height: 26px;
+}
+
+.lh50px{
+    line-height: 50px;
+}
+
 /* Header */
 
 header{
@@ -117,4 +125,23 @@ header{
     border-radius: 22px;
     font-weight: 600;
     font-size: 15px;
+}
+
+/* Section 1 */
+
+.container{
+    position: relative;
+}
+
+.text-section-one{
+    position: absolute;
+    right: 0;
+    top: 10%;
+    width: 30%;
+    font-size: 25px;
+}
+
+.text-section-one p{
+    font-weight: 700;
+    font-size: 16px;
 }
