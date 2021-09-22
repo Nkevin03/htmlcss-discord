@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Header */
+
+header{
+    background: #3161e0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+.navigation{
+    margin: 0 15%;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 30%;
+}
+
+.brand img{
+    width: 150px;
+    vertical-align: middle;
+}
+
+.main-menu{
+    display: inline-block;
+    list-style: none;
+}
+
+.main-menu li{
+    display: inline-block;
+}
+
+.main-menu li a{
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 80px;
+    text-decoration: none;
+    color: white;
+}
+
+.header-btn{
+    position: absolute;
+    right: 0;
+    background: #fff;
+    top: 30%;
+    padding: 8px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 600;
+}
