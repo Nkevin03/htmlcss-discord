@@ -20,6 +20,20 @@
     line-height: 50px;
 }
 
+.bg-section{
+    background-color: #f6f6f6;
+}
+
+.mb15pc{
+    margin-bottom: 15%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 /* Header */
 
 header{
@@ -27,6 +41,7 @@ header{
     text-align: center;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .navigation{
@@ -142,6 +157,28 @@ header{
 }
 
 .text-section-one p{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Section 2 */
+
+.container2{
+    position: relative;
+}
+
+.img-two{
+    float: right;
+}
+
+.text-section-two{
+    position: absolute;
+    width: 30%;
+    font-size: 25px;
+    top: 26px;
+}
+
+.text-section-two p{
     font-weight: 700;
     font-size: 16px;
 }
