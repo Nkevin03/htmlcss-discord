@@ -8,6 +8,10 @@
 
 /* Preser */
 
+section{
+    padding: 8% 0;
+}
+
 .margin-page{
     margin: 0 15%;
 }
