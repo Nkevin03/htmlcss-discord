@@ -8,7 +8,7 @@
 
 /* Preser */
 
-section{
+.section-pd{
     padding: 8% 0;
 }
 
@@ -155,7 +155,7 @@ header{
 .text-section-one{
     position: absolute;
     right: 0;
-    top: 10%;
+    top: 22%;
     width: 30%;
     font-size: 25px;
 }
@@ -228,4 +228,93 @@ header{
     color: #fff;
     padding: 15px;
     border-radius: 20px;
+}
+
+/* Section 6*/
+
+.info-section{
+    background-color: #23272a;
+    width: 100%;
+    height: 500px;
+}
+
+.row{
+    padding: 50px 0;
+}
+
+.row-one{
+    width: 35%;
+    float: left;
+}
+
+.row-one h2{
+    font-size: 30px;
+    color: #7289da;
+    font-weight: 800;
+}
+
+.language{
+    padding-top: 30px;
+    color: #fff;
+}
+
+.language img{
+    width: 30px;
+}
+
+.language i{
+    font-size: 13px;
+    vertical-align: top;
+}
+
+.language p{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.social-icon{
+    color: #fff;
+    font-size: 20px;
+}
+
+.social-icon i{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.row-two{
+    padding-top: 10px;
+    width: 16%;
+    float: left;
+}
+
+.row-two h3{
+    color: #7289da;
+    font-size: 18px;
+}
+
+.row-two p{
+    color: #fff;
+    line-height: 32px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #23272a;
+}
+
+.footer-content{
+    border-top: 1px solid #363f55;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.footer-content a{
+    float: right;
+    color: #fff;
+    background-color: #8ea1e1;
+    padding: 13px;
+    border-radius: 20px;
+    font-size: 14px;
 }
